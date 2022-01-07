@@ -9,6 +9,8 @@
 body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    background: #000;
+    margin: 0 auto;
 }
 a{ 
     text-decoration: none;
@@ -18,6 +20,7 @@ a{
 .banner-area{
     display: flex;
     margin: 0 100px 80px;
+    width: 100%;
 }
 .banner-title{
     width: 50%;
@@ -26,12 +29,15 @@ a{
     margin: 150px  0 20px;
     font-size: 40px;
     color: #2c3e50;
+   
+   
     
 }
 #title-slice{
     border-image: linear-gradient(orange,crimson);
     border-left: 5px solid ;
     border-image-slice: 1;
+    line-height: 50px;
 }
 
 .banner-title span{
@@ -39,16 +45,16 @@ a{
 }
 .banner-title p{
     font-size: 15px;
-    color: #000;
+    color: #fff;
     padding-bottom: 30px;
     padding-right: 50px;
 }
-.banner-title .btn{
+.btn{
    font-size: 15px;
    font-weight: 600;
    background:  #00a8ff;
    padding: 10px 25px;
-   border-radius: 10px;
+   border-radius: 5px;
    color: #fff;
    transition: 0.3s ease;
    
@@ -87,6 +93,7 @@ small{
 }
 .mission-details{
     display: flex;
+    width: 100%;
 
 }
 .mission-content{
@@ -203,24 +210,25 @@ small{
 
 /* develop area ends */
 
-
 .global-area{
+    width: 100%;
     display: flex;
     margin-bottom: 100px;
-    margin-left: 100px;
     
 }
 
 .global-image{
     width: 50%;
+
 }
 
 .global-image img{
     width: 80%;
-    z-index: 9999;
+    margin-left: 50px;
 }
 .global-text{
     width: 50%;
+    padding-left: 40px;
 
 }
 .global-text h1{
@@ -243,10 +251,11 @@ small{
     font-size: 15px;
     font-weight: 600;
     background:  #7ed6df;
-    padding: 10px 25px;
+    padding: 10px 30px;
     border-radius: 5px;
     color: #fff;
     transition: 0.3s ease;
+    display: inline-block;
 }
  .btn:hover{
     background: #FDA7DF;
@@ -256,14 +265,14 @@ small{
 
 .contact{
     width: 100%;
-    margin-left: 50px;
     margin-bottom: 50px;
-    background: rgb(247, 242, 242);
 }
 
 .contact-section{
     display: flex;
+    background: rgb(247, 242, 242);
     padding-bottom: 50px;
+    margin: 0 50px;
 }
 .contact-title{
     text-align: center;
@@ -276,7 +285,7 @@ small{
 .contact-details{
     width: 50%;
     padding-left: 100px;
-    padding-top: 50px;
+    padding-top: 100px;
 
 }
 .contact-details h3{
@@ -294,7 +303,7 @@ small{
 
 .contact-form{
     width: 50%;
-    margin-top: 30px;
+    margin-top: 60px;
 
 }
 .contact-form input{
@@ -313,6 +322,7 @@ small{
 
 .contact-form textarea{
     width: 60%;
+    margin-bottom: 20px;
     
 }
 #form-field{
@@ -320,6 +330,9 @@ small{
     background: #ffefef;
     border: 1px solid gray;
 }
+
+
+
 /* form section ends */
 
 .footer-area{
