@@ -263,12 +263,9 @@ small{
 }
 /* global area ends */
 .design-area{
-    width: 100%;
     display: flex;
     margin-left: 10px;
-    margin-bottom: 100px;
-
-   
+    margin-bottom: 100px;  
 }
 
 .design-image{
